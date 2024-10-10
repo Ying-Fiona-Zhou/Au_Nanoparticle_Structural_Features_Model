@@ -58,6 +58,22 @@ Several plots are included in the notebook to help visualize model performance a
 - **Correlation Matrix**: Shows the relationships between different features in the dataset.
 - **Feature Importance Plot**: Displays which features had the most impact on nanoparticle size prediction.
 
+
+## Credits & Learning
+
+### Credits
+- This project was inspired by research on **nanoparticle growth models** and the use of **machine learning in materials science**. 
+- Special thanks to the developers of **Scikit-learn**, **Pandas**, and **Matplotlib**, whose tools were essential in building this project.
+- Notable research papers that inspired this project:
+  - *Diffusion-limited aggregation, a kinetic critical phenomenon* by Witten & Sander (1981)
+  - *Ostwald Ripening: A Simplified Kinetic Model* by Lifshitz & Slyozov (1961)
+  - *Machine learning for molecular and materials science* by Butler et al. (2018)
+
+### Learning Outcomes
+Through this project, I gained significant insights into:
+- **Nanoparticle Growth Mechanisms**: Understanding how physical processes like **diffusion-limited growth** and **Ostwald ripening** contribute to nanoparticle growth.
+- **Machine Learning in Nanotechnology**: Implementing **Random Forest** and **Gradient Boosting** to predict nanoparticle size and surface features.
+
 ## Requirements
 Before running the model, ensure the following libraries are installed:
 
@@ -73,17 +89,3 @@ To install the required libraries, you can run:
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn
 
-## Credits & Learning
-
-#### Credits
-- This project was inspired by research on **nanoparticle growth models** and the use of **machine learning in materials science**. 
-- Special thanks to the developers of **Scikit-learn**, **Pandas**, and **Matplotlib**, whose tools were essential in building this project.
-- Notable research papers that inspired this project:
-  - *Diffusion-limited aggregation, a kinetic critical phenomenon* by Witten & Sander (1981)
-  - *Ostwald Ripening: A Simplified Kinetic Model* by Lifshitz & Slyozov (1961)
-  - *Machine learning for molecular and materials science* by Butler et al. (2018)
-
-#### Learning Outcomes
-Through this project, I gained significant insights into:
-- **Nanoparticle Growth Mechanisms**: Understanding how physical processes like **diffusion-limited growth** and **Ostwald ripening** contribute to nanoparticle growth.
-- **Machine Learning in Nanotechnology**: Implementing **Random Forest** and **Gradient Boosting** to predict nanoparticle size and surface features.
